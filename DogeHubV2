@@ -1,0 +1,95 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Jailbreak = Instance.new("TextButton")
+local LumberSmasher = Instance.new("TextButton")
+local petSimX = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local lt2DupeScript = Instance.new("TextButton")
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(55, 55, 55)
+Frame.Position = UDim2.new(0.197718635, 0, 0.238568589, 0)
+Frame.Size = UDim2.new(0, 571, 0, 262)
+
+Jailbreak.Name = "Jailbreak"
+Jailbreak.Parent = Frame
+Jailbreak.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+Jailbreak.Position = UDim2.new(0.0072115385, 0, 0.047058817, 0)
+Jailbreak.Size = UDim2.new(0, 410, 0, 50)
+Jailbreak.Font = Enum.Font.SourceSans
+Jailbreak.Text = "JailBreak AutoRob (New updated one*Discord Invite*)"
+Jailbreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jailbreak.TextSize = 14.000
+Jailbreak.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/KuriWasTaken/MonkeyScripts/main/JailMonkey.lua"))()
+end)
+
+petSimX.Name = "petSimX"
+petSimX.Parent = Frame
+petSimX.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+petSimX.Position = UDim2.new(0.00546022505, 0, 0.721254349, 0)
+petSimX.Size = UDim2.new(0, 410, 0, 50)
+petSimX.Font = Enum.Font.SourceSans
+petSimX.Text = "PetSimulatorXAutoFarm"
+petSimX.TextColor3 = Color3.fromRGB(255, 255, 255)
+petSimX.TextSize = 14.000
+petSimX.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/4lve/Roblox/main/PetSimX.lua"))()
+end)
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BorderSizePixel = 0
+TextLabel.LayoutOrder = 1
+TextLabel.Position = UDim2.new(0.725043774, 0, 0.0458015278, 0)
+TextLabel.Size = UDim2.new(0, 151, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "DogeHub"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 14.000
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.LayoutOrder = 1
+TextLabel_2.Position = UDim2.new(0.725043774, 0, 0.125954196, 0)
+TextLabel_2.Size = UDim2.new(0, 151, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "4 Powerful scripts"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 14.000
+
+TextLabel_3.Parent = Frame
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(77, 77, 77)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.LayoutOrder = 1
+TextLabel_3.Position = UDim2.new(0.725043774, 0, 0.778625965, 0)
+TextLabel_3.Size = UDim2.new(0, 151, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "nealsploit#7903"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 14.000
+
+lt2DupeScript.Name = "lt2 DupeScript"
+lt2DupeScript.Parent = Frame
+lt2DupeScript.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
+lt2DupeScript.Position = UDim2.new(0.0072115385, 0, 0.270588219, 0)
+lt2DupeScript.Size = UDim2.new(0, 410, 0, 50)
+lt2DupeScript.Font = Enum.Font.SourceSans
+lt2DupeScript.Text = "Lumber Tycoon 2 Dupe Script"
+lt2DupeScript.TextColor3 = Color3.fromRGB(255, 255, 255)
+lt2DupeScript.TextSize = 14.000
+lt2DupeScript.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SscripterSs/DogeHub/main/Lt2"))()
+end)
